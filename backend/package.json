@@ -4,7 +4,7 @@
   "description": "API for a phone catalogue",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "nodemon index",
     "test": "cross-env NODE_ENV=test jest --watch --verbose",
     "test-console-log": "cross-env NODE_ENV=test TERM=dumb jest --watch --verbose"
   },
