@@ -4,9 +4,13 @@
   "description": "API for a phone catalogue",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "test": "cross-env NODE_ENV=test jest --watch --verbose",
+    "test-console-log": "cross-env NODE_ENV=test TERM=dumb jest --watch --verbose"
   },
-  "keywords": [],
+  "jest": {
+    "testEnvironment": "node"
+  },
   "author": "Jean Surkouf Ariza Varela",
   "license": "MIT"
 }
