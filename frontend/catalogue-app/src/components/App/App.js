@@ -1,27 +1,28 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import './App.css';
+import { fetchingItems } from '../../actions';
 
 class App extends Component {
+  componentDidMount() {
+    const { fetchingItems } = this.props;
+    fetchingItems();
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <header className="App-header" />
       </div>
     );
   }
 }
 
-export default App;
+const mapStateToProps = (state, distpatch) => {
+  return {};
+};
+
+export default connect(
+  mapStateToProps,
+  { fetchingItems },
+)(App);
