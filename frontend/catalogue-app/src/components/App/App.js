@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import { Switch, Redirect, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 import './App.css';
 import { fetchingItems } from '../../actions';
 import MAXMOVIL_LOGO from '../../media/Masmovillogo.svg.png';
+import Spinner from '../Spinner/Spinner';
+import PhoneListContainer from '../PhoneListContainer/PhoneListContainer';
 
 class App extends Component {
   componentDidMount() {
@@ -11,6 +14,9 @@ class App extends Component {
   }
 
   render() {
+    const { fetched_Item } = this.props;
+    console.log({ FETCHED_ITEMS: fetched_Item });
+
     return (
       <div className="App container">
         <div className="header row">
@@ -23,14 +29,31 @@ class App extends Component {
             />
           </figure>
         </div>
-        <div className="row" />
+        <div className="main row">
+          <Switch>
+            <Route
+              exact
+              path="/"
+              render={() =>
+                this.props.fetched_Item ? (
+                  <Redirect to="catalogue" />
+                ) : (
+                  <div className="col-12 figure">
+                    <Spinner />
+                  </div>
+                )
+              }
+            />
+            <Route path="/catalogue" component={PhoneListContainer} />
+          </Switch>
+        </div>
       </div>
     );
   }
 }
 
-const mapStateToProps = (state, distpatch) => {
-  return {};
+const mapStateToProps = (state, dispatch) => {
+  return { fetched_Item: state.fetched_Item, dispatch };
 };
 
 export default connect(
