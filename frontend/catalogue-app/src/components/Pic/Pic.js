@@ -1,8 +1,9 @@
 import React from 'react';
+import './Pic.css';
 
 const Pic = ({ img, altAttribute }) => {
   return (
-    <div>
+    <div className="pic">
       <figure className="figure">
         <img
           src={img}
