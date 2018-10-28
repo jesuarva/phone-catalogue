@@ -33,6 +33,8 @@
   "devDependencies": {
     "dotenv": "^6.1.0",
     "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "react-test-renderer": "^16.6.0",
     "react-logger": "^1.1.0",
     "redux-devtools-extension": "^2.13.5",
     "redux-logger": "^3.0.6"
