@@ -3,13 +3,13 @@ import SPINNER from '../../media/rotating-balls-spinner.gif';
 
 const Spinner = () => {
   return (
-    <figure className="figure">
+    <div className="col-12 custom-card">
       <img
         src={SPINNER}
         alt="masmovil logo"
         className="figure-img img-fluid rounded"
       />
-    </figure>
+    </div>
   );
 };
 
