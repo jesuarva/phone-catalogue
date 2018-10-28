@@ -3,7 +3,7 @@ import SPINNER from '../../media/rotating-balls-spinner.gif';
 
 const Spinner = () => {
   return (
-    <figure className="col-12 figure">
+    <figure className="figure">
       <img
         src={SPINNER}
         alt="masmovil logo"

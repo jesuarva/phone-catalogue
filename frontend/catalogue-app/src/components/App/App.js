@@ -38,7 +38,7 @@ class App extends Component {
                 this.props.fetched_Item ? (
                   <Redirect to="catalogue" />
                 ) : (
-                  <div className="col-12 figure">
+                  <div className="col-12">
                     <Spinner />
                   </div>
                 )
