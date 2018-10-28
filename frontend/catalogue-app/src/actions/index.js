@@ -24,7 +24,7 @@ export const fetchingItems = () => {
         console.log('response.data', response.data);
         dispatch({
           type: FETCHED_ITEMS,
-          data: response.data['Document(s) in database'],
+          data: response.data,
         });
       })
       .catch((e) => {
