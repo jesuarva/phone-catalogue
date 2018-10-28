@@ -1,13 +1,9 @@
 import React from 'react';
-import { Switch, Route, withRouter } from 'react-router-dom';
-import { connect } from 'react-redux';
-import PhoneListContainer from '../PhoneListContainer/PhoneListContainer';
+import { Route, Switch } from 'react-router-dom';
 import PhoneDetailsComponent from '../PhoneDetailComponent/PhoneDetailsComponent';
+import PhoneListContainer from '../PhoneListContainer/PhoneListContainer';
 
 const MainContent = (props) => {
-  const { fetched_Item } = props;
-  const { pathname } = props.location;
-  console.log(props.location.pathname);
   return (
     <Switch>
       <Route exact path="/" component={PhoneListContainer} />
@@ -16,13 +12,4 @@ const MainContent = (props) => {
   );
 };
 
-const mapStateToProps = (state, dispatch) => {
-  return { fetched_Item: state.fetched_Item, dispatch };
-};
-
-export default withRouter(
-  connect(
-    mapStateToProps,
-    {},
-  )(MainContent),
-);
+export default MainContent;
