@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
@@ -33,6 +34,11 @@ class App extends Component {
     );
   }
 }
+
+App.propTypes = {
+  fetchingItems: PropTypes.func.isRequired,
+  fetched_Item: PropTypes.bool.isRequired,
+};
 
 const mapStateToProps = (state, dispatch) => {
   return { fetched_Item: state.fetched_Item, dispatch };

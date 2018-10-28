@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import PhoneDetailsComponent from '../PhoneDetailComponent/PhoneDetailsComponent';
 import PhoneListContainer from '../PhoneListContainer/PhoneListContainer';
 
-const MainContent = (props) => {
+const MainContent = () => {
   return (
     <Switch>
       <Route exact path="/" component={PhoneListContainer} />

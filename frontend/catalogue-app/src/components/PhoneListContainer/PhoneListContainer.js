@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import { connect } from 'react-redux';
 import Card from '../Card/Card';
 
@@ -15,6 +16,10 @@ const PhoneListContainer = (props) => {
       ))}
     </div>
   );
+};
+
+PhoneListContainer.propTypes = {
+  data: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 const mapStateToProps = (state) => {

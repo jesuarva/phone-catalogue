@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React, { Component, Fragment } from 'react';
 
 /**
@@ -37,5 +38,13 @@ class TestWrapper extends Component {
     return <Fragment>{children({ ...this.props })}</Fragment>;
   }
 }
+
+TestWrapper.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node,
+    PropTypes.func,
+  ]).isRequired,
+};
 
 export default TestWrapper;

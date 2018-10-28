@@ -1,7 +1,8 @@
-import React, { Component, Fragment } from 'react';
+import PropTypes from 'prop-types';
+import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
-import { Link, withRouter } from 'react-router-dom';
-import { Jumbotron, Container, Table } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import { Container, Jumbotron, Table } from 'reactstrap';
 import Pic from '../Pic/Pic';
 
 const PhoneDetailsComponent = (props) => {
@@ -21,7 +22,7 @@ const PhoneDetailsComponent = (props) => {
   for (let key in phone) {
     if (key === 'image' || key === 'Model') continue;
     details.push(
-      <tr>
+      <tr key={Math.random() + Date.now()}>
         <th scope="row">{key}</th>
         <td>{phone[key]}</td>
       </tr>,
@@ -54,6 +55,20 @@ const PhoneDetailsComponent = (props) => {
       </div>
     </Fragment>
   );
+};
+
+PhoneDetailsComponent.propTypes = {
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      Model: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
+  match: PropTypes.shape({
+    params: PropTypes.shape({
+      model: PropTypes.string.isRequired,
+    }).isRequired,
+  }).isRequired,
 };
 
 const mapStateToProps = (state) => {

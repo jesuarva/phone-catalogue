@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import './Pic.css';
 
@@ -13,6 +14,11 @@ const Pic = ({ img, altAttribute }) => {
       </figure>
     </div>
   );
+};
+
+Pic.propTypes = {
+  img: PropTypes.string.isRequired,
+  altAttribute: PropTypes.string.isRequired,
 };
 
 export default Pic;

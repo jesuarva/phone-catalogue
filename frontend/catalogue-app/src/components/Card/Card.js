@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Jumbotron } from 'reactstrap';
@@ -17,6 +18,11 @@ const Card = ({ phone }) => {
       </Link>
     </div>
   );
+};
+
+Card.propTypes = {
+  image: PropTypes.string,
+  Model: PropTypes.string,
 };
 
 export default Card;
