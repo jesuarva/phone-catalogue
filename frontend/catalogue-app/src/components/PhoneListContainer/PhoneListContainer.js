@@ -5,7 +5,7 @@ import Card from '../Card/Card';
 const PhoneListContainer = (props) => {
   const { data } = props;
   return (
-    <Fragment>
+    <div className="row">
       {data.map((phone, i) => (
         <Card
           key={Math.random() + Date.now()}
@@ -13,13 +13,12 @@ const PhoneListContainer = (props) => {
           phone={phone}
         />
       ))}
-    </Fragment>
+    </div>
   );
 };
 
-const mapStateToProps = (state, dispatch) => {
+const mapStateToProps = (state) => {
   return {
-    dispatch,
     data: state.data,
   };
 };

@@ -28,9 +28,7 @@ class App extends Component {
             />
           </figure>
         </div>
-        <div className="main-content row">
-          {fetched_Item ? <MainContent /> : <Spinner />}
-        </div>
+        {fetched_Item ? <MainContent /> : <Spinner />}
       </div>
     );
   }
