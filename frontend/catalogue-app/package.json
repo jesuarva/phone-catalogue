@@ -32,6 +32,7 @@
   "proxy": "http://localhost:2373",
   "devDependencies": {
     "dotenv": "^6.1.0",
+    "enzyme": "^3.7.0",
     "react-logger": "^1.1.0",
     "redux-devtools-extension": "^2.13.5",
     "redux-logger": "^3.0.6"
