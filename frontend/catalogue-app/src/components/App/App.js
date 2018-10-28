@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Switch, Redirect, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
-import './App.css';
+import { withRouter } from 'react-router-dom';
 import { fetchingItems } from '../../actions';
 import MAXMOVIL_LOGO from '../../media/Masmovillogo.svg.png';
+import MainContent from '../MainContent/MainContent';
 import Spinner from '../Spinner/Spinner';
-import PhoneListContainer from '../PhoneListContainer/PhoneListContainer';
+import './App.css';
 
 class App extends Component {
   componentDidMount() {
@@ -15,7 +15,6 @@ class App extends Component {
 
   render() {
     const { fetched_Item } = this.props;
-    console.log({ FETCHED_ITEMS: fetched_Item });
 
     return (
       <div className="App container">
@@ -29,23 +28,8 @@ class App extends Component {
             />
           </figure>
         </div>
-        <div className="main row">
-          <Switch>
-            <Route
-              exact
-              path="/"
-              render={() =>
-                this.props.fetched_Item ? (
-                  <Redirect to="catalogue" />
-                ) : (
-                  <div className="col-12">
-                    <Spinner />
-                  </div>
-                )
-              }
-            />
-            <Route path="/catalogue" component={PhoneListContainer} />
-          </Switch>
+        <div className="main-content row">
+          {fetched_Item ? <MainContent /> : <Spinner />}
         </div>
       </div>
     );
@@ -56,7 +40,9 @@ const mapStateToProps = (state, dispatch) => {
   return { fetched_Item: state.fetched_Item, dispatch };
 };
 
-export default connect(
-  mapStateToProps,
-  { fetchingItems },
-)(App);
+export default withRouter(
+  connect(
+    mapStateToProps,
+    { fetchingItems },
+  )(App),
+);
