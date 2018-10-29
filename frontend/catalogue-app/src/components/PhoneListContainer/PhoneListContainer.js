@@ -3,7 +3,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Card from '../Card/Card';
 
-const PhoneListContainer = (props) => {
+export const PhoneListContainer = (props) => {
   const { data } = props;
   return (
     <div className="row">

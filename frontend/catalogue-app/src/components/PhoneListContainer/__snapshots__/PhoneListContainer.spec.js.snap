@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneListContainer component should renders correctly 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Razer-Phone"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Razer Phone"
+              className="figure-img img-fluid rounded"
+              src="https://cdn2.gsmarena.com/vv/bigpic/razer-phone.jpg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Razer Phone
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Samsung-Galaxy-Note-8"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Samsung Galaxy Note 8"
+              className="figure-img img-fluid rounded"
+              src="https://s7d2.scene7.com/is/image/SamsungUS/Note8-Front-S-Pen-Orchidgray?$product-details-jpg$"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Samsung Galaxy Note 8
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Essential-Phone"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Essential Phone"
+              className="figure-img img-fluid rounded"
+              src="https://images-na.ssl-images-amazon.com/images/I/81OvOMun5zL._SX425_.jpg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Essential Phone
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Pixel-2-XL"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Pixel 2 XL"
+              className="figure-img img-fluid rounded"
+              src="https://images-na.ssl-images-amazon.com/images/I/71o2AW-OlFL._SX569_.jpg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Pixel 2 XL
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Pixel-2"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Pixel 2"
+              className="figure-img img-fluid rounded"
+              src="https://images-na.ssl-images-amazon.com/images/I/411ZLDLOFTL.jpg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Pixel 2
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Huawei-P10"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Huawei P10"
+              className="figure-img img-fluid rounded"
+              src="https://drop.ndtv.com/TECH/product_database/images/226201773632PM_635_huawei_p10.jpeg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Huawei P10
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Huawei-Mate-10-Pro"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Huawei Mate 10 Pro"
+              className="figure-img img-fluid rounded"
+              src="https://www.senheng.com.my/media/catalog/product/cache/3/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/m/a/mate10pro-blue.jpg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Huawei Mate 10 Pro
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/HTC-U11"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="HTC U11"
+              className="figure-img img-fluid rounded"
+              src="https://media.wired.com/photos/5a6671b83e45fc27d573835c/master/w_1258,c_limit/HTC-u11-life-TopArt.jpg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          HTC U11
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Nokia-8"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Nokia 8"
+              className="figure-img img-fluid rounded"
+              src="https://cdn.eglobalcentral.eu/images/detailed/60/nokia-8-dual-sim-4gb-ram-64gb-glossy-copper.jpg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Nokia 8
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/LG-G6"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="LG G6"
+              className="figure-img img-fluid rounded"
+              src="https://d2giyh01gjb6fi.cloudfront.net/default/0001/60/thumb_59655_default_big.jpeg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          LG G6
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/LG-V30"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="LG V30"
+              className="figure-img img-fluid rounded"
+              src="https://cdn.movertix.com/media/catalog/product/cache/image/600x/l/g/lg-v30-en-azul-de-64gb-y-4gb-ram-h930.jpg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          LG V30
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Huawei-Honor-9"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Huawei Honor 9"
+              className="figure-img img-fluid rounded"
+              src="https://cdn.shopify.com/s/files/1/1374/6193/products/000693-huawei-honor-9-glacier-grey-3.jpg?v=1503007820"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Huawei Honor 9
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/BlackBerry-KEYone"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="BlackBerry KEYone"
+              className="figure-img img-fluid rounded"
+              src="https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/09/21/source-img/20170921102421_69887.jpg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          BlackBerry KEYone
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Sony-Xperia-XZ-Premium"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Sony Xperia XZ Premium"
+              className="figure-img img-fluid rounded"
+              src="https://api.sonymobile.com/files/xperia-XZ-Premium-Silver-product-shot-2000x2000-eb3b7f375688f9b33780aed533d4f6eb.png"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Sony Xperia XZ Premium
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Samsung-Galaxy-S8"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Samsung Galaxy S8"
+              className="figure-img img-fluid rounded"
+              src="https://s7d2.scene7.com/is/image/SamsungUS/S8?$configurator-model-view-jpg$"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Samsung Galaxy S8
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Apple-iPhone-8-Plus"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Apple iPhone 8 Plus"
+              className="figure-img img-fluid rounded"
+              src="https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/select/iphone8-select-2017?wid=212&hei=292&fmt=png-alpha&.v=1503618523038"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Apple iPhone 8 Plus
+        </h1>
+      </div>
+    </a>
+  </div>
+  <div
+    className="col-12 col-md-4 custom-card"
+  >
+    <a
+      href="/catalogue/Apple-iPhone-X"
+      onClick={[Function]}
+    >
+      <div
+        className="custom-card jumbotron"
+      >
+        <div
+          className="pic"
+        >
+          <figure
+            className="figure"
+          >
+            <img
+              alt="Apple iPhone X"
+              className="figure-img img-fluid rounded"
+              src="https://brain-images-ssl.cdn.dixons.com/4/8/10168684/u_10168684.jpg"
+            />
+          </figure>
+        </div>
+        <h1
+          className="display-6"
+        >
+          Apple iPhone X
+        </h1>
+      </div>
+    </a>
+  </div>
+</div>
+`;
