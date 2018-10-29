@@ -20,6 +20,10 @@ You should be able to see on the terminal
   *** Listening on port 2373 ***
 ```
 
+### To run backend tests
+
+> yarn test
+
 ## To set-up and run the frontend
 
 Open a new terminal, from the root folder
@@ -35,3 +39,7 @@ to launch the APP, run
 > `yarn start`
 
 To visit the APP in your browser nevigate to [http://localhost:3000/](http://localhost:3000/)
+
+### To run frontend tests
+
+> yarn test
