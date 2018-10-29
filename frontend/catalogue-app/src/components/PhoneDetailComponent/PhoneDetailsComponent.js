@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Container, Jumbotron, Table } from 'reactstrap';
 import Pic from '../Pic/Pic';
 
-const PhoneDetailsComponent = (props) => {
+export const PhoneDetailsComponent = (props) => {
   const { data } = props;
 
   // Get url-param and repalces dach-character with 'spaces'
@@ -13,7 +13,6 @@ const PhoneDetailsComponent = (props) => {
 
   // Get specific phone-details
   const phone = data.filter((phone) => phone.Model === model)[0];
-
   const { Model, image } = phone;
 
   let details = [];

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneDetailsComponent component should renders correctly 1`] = `
+Array [
+  <div
+    className="row"
+  >
+    <div
+      className="col-12"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <h1>
+          Back to catalogue
+        </h1>
+      </a>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 col-4 card-phone-image"
+    >
+      <div
+        className="pic"
+      >
+        <figure
+          className="figure"
+        >
+          <img
+            alt="Apple iPhone 8 Plus"
+            className="figure-img img-fluid rounded"
+            src="https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/select/iphone8-select-2017?wid=212&hei=292&fmt=png-alpha&.v=1503618523038"
+          />
+        </figure>
+      </div>
+    </div>
+    <div
+      className="col-12 col-8 card-phone-details"
+    >
+      <div
+        className="jumbotron jumbotron-fluid"
+      >
+        <div
+          className="container-fluid"
+        >
+          <h1
+            className="display-3"
+          >
+            Apple iPhone 8 Plus
+          </h1>
+          <table
+            className="table"
+          >
+            <tbody />
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
