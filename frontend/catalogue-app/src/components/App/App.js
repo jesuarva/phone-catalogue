@@ -8,7 +8,7 @@ import MainContent from '../MainContent/MainContent';
 import Spinner from '../Spinner/Spinner';
 import './App.css';
 
-class App extends Component {
+export class App extends Component {
   componentDidMount() {
     const { fetchingItems } = this.props;
     fetchingItems();
