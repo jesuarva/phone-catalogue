@@ -21,8 +21,10 @@ const Card = ({ phone }) => {
 };
 
 Card.propTypes = {
-  image: PropTypes.string,
-  Model: PropTypes.string,
+  phone: PropTypes.shape({
+    image: PropTypes.string.isRequired,
+    Model: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Card;

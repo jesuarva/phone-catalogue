@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component should renders correctly 1`] = `
+<div
+  className="col-12 col-md-4 custom-card"
+>
+  <a
+    href="/catalogue/Apple-iPhone-8-Plus"
+    onClick={[Function]}
+  >
+    <div
+      className="custom-card jumbotron"
+    >
+      <div
+        className="pic"
+      >
+        <figure
+          className="figure"
+        >
+          <img
+            alt="Apple iPhone 8 Plus"
+            className="figure-img img-fluid rounded"
+            src="https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/select/iphone8-select-2017?wid=212&hei=292&fmt=png-alpha&.v=1503618523038"
+          />
+        </figure>
+      </div>
+      <h1
+        className="display-6"
+      >
+        Apple iPhone 8 Plus
+      </h1>
+    </div>
+  </a>
+</div>
+`;
