@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner component should renders correctly 1`] = `
+<div
+  className="col-12 custom-card"
+>
+  <img
+    alt="masmovil logo"
+    className="figure-img img-fluid rounded"
+    src="rotating-balls-spinner.gif"
+  />
+</div>
+`;
